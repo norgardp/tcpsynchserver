@@ -1,0 +1,3 @@
+This server application is a synchronous TCP implementation using the boost libraries. It comes (slightly modified) from Dmytro Taduchuk's "Boost.Asio C++ Network Programming Cookbook".
+
+This server will hang indefinitely if no incoming socket is heard on port 3333.

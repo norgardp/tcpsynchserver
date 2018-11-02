@@ -9,7 +9,13 @@
 
 #include <stdio.h>
 #include <tchar.h>
-
+#include <thread>
+#include <atomic>
+#include <iostream>
+#include <memory>
+#include <system_error>
 
 
 // TODO: reference additional headers your program requires here
+#include <boost\asio.hpp>
+#include "Server.h"
